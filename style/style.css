@@ -63,7 +63,7 @@ footer {
   border: 2px solid black;
   color: black;
   background-color: white;
-  max-width: 20%;
+  max-width: 30%;
 }
 
 @media (max-width: 800px) {
