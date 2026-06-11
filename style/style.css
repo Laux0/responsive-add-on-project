@@ -24,7 +24,7 @@ h1 {
   margin: 0 auto;
 }
 
-h2 {
+header h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 36px;
@@ -33,7 +33,7 @@ h2 {
   padding: 10px;
 }
 
-h3 {
+header h3 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 28px;
@@ -44,7 +44,44 @@ h3 {
 
 footer {
   font-family: "Poppins", sans-serif;
-  text-align: center;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+    url(/images/park.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  max-width: 100%;
+}
+
+footer h3 {
+  text-align: left;
+  font-size: 20px;
+  color: black;
+  margin: 0 auto;
+  padding: 0;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0 auto;
+}
+
+footer li {
+  list-style: none;
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: underline;
+  color: black;
+}
+
+footer p {
+  text-align: left;
+  font-size: 14px;
+  color: black;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .container {
@@ -67,6 +104,11 @@ footer {
   max-width: 30%;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
 @media (max-width: 800px) {
   header h1 {
     font-size: 50px;
@@ -80,5 +122,23 @@ footer {
   }
   .link-button {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 800px) {
+  footer h3 {
+    font-size: 16px;
+    padding: 10px;
+  }
+  footer li {
+    font-size: 12px;
+    padding: 10px;
+  }
+  footer p {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
   }
 }
