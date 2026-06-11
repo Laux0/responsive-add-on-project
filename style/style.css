@@ -46,7 +46,7 @@ section {
   background-color: rgb(254, 254, 254);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 50px;
+  grid-gap: 42px;
   padding: 40px;
   font-family: "Poppins", sans-serif;
 }
@@ -64,7 +64,7 @@ section img {
   aspect-ratio: 2 / 2.5;
   object-fit: cover;
   object-position: center 65%;
-  max-width: 100%;
+  max-width: 70%;
   display: block;
   margin: 0 auto;
   padding: 10px;
@@ -174,11 +174,12 @@ footer p {
 
 @media (max-width: 800px) {
   section {
-    grid-gap: 42px;
+    grid-gap: 32px;
     padding: 5px;
   }
   section img {
     padding: 5px;
+    max-width: 100%;
   }
   section h2 {
     font-size: 16px;
