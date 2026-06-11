@@ -67,7 +67,7 @@ section img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 footer {
@@ -173,6 +173,13 @@ footer p {
 }
 
 @media (max-width: 800px) {
+  section {
+    grid-gap: 42px;
+    padding: 5px;
+  }
+  section img {
+    padding: 5px;
+  }
   section h2 {
     font-size: 16px;
   }
