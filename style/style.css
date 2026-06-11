@@ -42,6 +42,34 @@ header h3 {
   padding: 10px;
 }
 
+section {
+  background-color: rgb(254, 254, 254);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+section h2 {
+  font-size: 22px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+section img {
+  aspect-ratio: 2 / 2.5;
+  object-fit: cover;
+  object-position: center 65%;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 footer {
   font-family: "Poppins", sans-serif;
   background-image:
@@ -141,5 +169,14 @@ footer p {
   }
   .grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  section h2 {
+    font-size: 16px;
+  }
+  section p {
+    font-size: 12px;
   }
 }
