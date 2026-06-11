@@ -58,6 +58,7 @@ section h2 {
 section p {
   font-size: 18px;
   line-height: 1.5;
+  max-width: 70%;
 }
 
 section img {
@@ -174,17 +175,18 @@ footer p {
 
 @media (max-width: 800px) {
   section {
-    grid-gap: 32px;
+    grid-gap: 24px;
     padding: 5px;
   }
   section img {
     padding: 5px;
-    max-width: 100%;
+    max-width: 90%;
   }
   section h2 {
     font-size: 16px;
   }
   section p {
     font-size: 12px;
+    max-width: 90%;
   }
 }
