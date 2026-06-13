@@ -134,7 +134,7 @@ footer p {
   max-width: 30%;
 }
 
-.grid {
+.footer-grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
 }
@@ -168,7 +168,7 @@ footer p {
     font-size: 12px;
     padding: 10px;
   }
-  .grid {
+  .footer-grid {
     grid-template-columns: 1fr;
   }
 }
