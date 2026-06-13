@@ -134,6 +134,18 @@ footer p {
   max-width: 30%;
 }
 
+.places-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.places-grid img {
+  aspect-ratio: 2 / 2.5;
+  object-fit: cover;
+  display: block;
+  max-width: 70%;
+}
+
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
